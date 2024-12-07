@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    padding-top: 20%;
+}
+
+.box-virt{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.marcador{
+    color: rgba(223, 223, 0, 0.979);
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 45px;
+}
+
+.marcador:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(223, 223, 0, 0.979);
+    transition: 0.8s;
+}
+.paragraf{
+    color: rgba(223, 223, 0, 0.979);
+    font-size: 28px;
+}
